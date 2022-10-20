@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header-links a {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.header-links a:hover {
+    color: darkgoldenrod;
+}
+
+#main-page {
+    background-image: url("/source/images/bg/header-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 200px 0;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.main-page-headers {
+    color: white;
+}
+
+.main-page-headers h5 {
+    text-transform: uppercase;
+}
+
+.main-page-headers h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.buy-btn {
+    margin: 20px 0;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#introduce {
+    padding: 75px 0;
+}
+
+.text-introduce h3 {
+    color: goldenrod;
+    font-size: 14px;
+}
+
+.text-introduce h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+#products {
+    background: #f1faee url("/source/images/bg/menu-bg.jpg") top right / cover;
+}
+
+.products-header h2,
+.gallery-header h2,
+.review-header h2,
+.blog-header h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.products-header h4,
+.gallery-header h4,
+.review-header h4,
+.blog-header h4 {
+    font-size: 14px;
+}
+
+.product-item {
+    margin: 10px;
+    background-color: white;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.product-item:hover {
+    transition: all 0.2s;
+    box-shadow: 0px 0px 40px -10px rgba(222, 160, 16, 0.65);
+}
+
+.product-item h6 {
+    font-weight: 700;
+}
+
+.product-item .price {
+    color: rgb(222, 160, 16);
+    font-weight: 700;
+}
+
+#review {
+    background-color: darkgoldenrod;
+}
+
+.review-header h2,
+.review-header h4 {
+    color: white;
+}
+
+.review-prev-btn {
+    justify-content: flex-start;
+    width: 3%;
+}
+
+.review-next-btn {
+    justify-content: flex-end;
+    width: 3%;
+}
+
+.review-item {
+    padding: 0 50px;
+    height: auto;
+    color: white;
+}
+
+.review-logo {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.review-rating span {
+    font-weight: 700;
+}
+
+.review-rating,
+.review-text p {
+    padding: 10px 0;
+}
+
+.total-statistic {
+    padding: 50px 0 75px;
+    color: white;
+}
+
+.statistic-num {
+    font-size: 50px;
+}
+
+.blog-img,
+.blog-btn,
+.blog-text-header,
+.blog-text-p,
+.blog-date {
+    margin: 10px 0;
+}
+
+.blog-text-header {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.blog-date {
+    font-weight: 700;
+}
+
+
+#footer {
+    background-image: url("/source/images/bg/footer-bg.jpg");
+    padding: 100px 0;
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+}
+
+.heart {
+    color: goldenrod;
+}
+
+.subscribe-btn {
+    background-color: goldenrod;
+    color: white;
+}
+
+.social-link a {
+    font-size: 20px;
+    color: white;
+    margin-right: 8px;
+}
+
+.social-link a:hover {
+    color: #0a53be;
+}
+
